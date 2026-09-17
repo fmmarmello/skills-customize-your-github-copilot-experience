@@ -79,6 +79,20 @@
       "description": "Designing clear, reusable, and testable Copilot skills",
       "path": "assignments/creating-good-skills-with-copilot",
       "dueDate": "2026-09-24"
+    },
+    {
+      "id": "student-planner-api",
+      "title": "Student Planner API",
+      "description": "Build a REST API to manage a student's study tasks with CRUD, validation, and filters",
+      "path": "assignments/student-planner-api",
+      "dueDate": "2026-09-24",
+      "attachments": [
+        {
+          "name": "Starter Code",
+          "file": "starter-code.py",
+          "type": "python"
+        }
+      ]
     }
   ]
 }
