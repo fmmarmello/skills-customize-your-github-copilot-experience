@@ -1,11 +1,11 @@
 
 # 📘 Tarefa: Jogo da Forca
 
-## 🎯 Objective
+## 🎯 Objetivo
 
 Pratique manipulação de strings, controle de fluxo e interação com o usuário ao criar um jogo da forca em Python.
 
-## 📝 Tasks
+## 📝 Tarefas
 
 ### 🛠️ Escolher a Palavra Secreta
 
