@@ -58,6 +58,27 @@
           "type": "csv"
         }
       ]
+    },
+    {
+      "id": "building-rest-apis-fastapi",
+      "title": "Building REST APIs with FastAPI",
+      "description": "Creating REST APIs with the FastAPI framework",
+      "path": "assignments/building-rest-apis-fastapi",
+      "dueDate": "2026-09-24",
+      "attachments": [
+        {
+          "name": "Starter Code",
+          "file": "starter-code.py",
+          "type": "python"
+        }
+      ]
+    },
+    {
+      "id": "creating-good-skills-with-copilot",
+      "title": "Creating Good Skills with Copilot",
+      "description": "Designing clear, reusable, and testable Copilot skills",
+      "path": "assignments/creating-good-skills-with-copilot",
+      "dueDate": "2026-09-24"
     }
   ]
 }
