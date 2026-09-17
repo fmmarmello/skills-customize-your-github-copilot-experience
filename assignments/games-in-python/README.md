@@ -1,19 +1,47 @@
 
-# 🎮 Desafio: Jogo da Forca
+# 📘 Tarefa: Jogo da Forca
 
-Construa o clássico jogo de adivinhar palavras usando strings, loops e entrada de dados do usuário em Python.
+## 🎯 Objective
 
-## 🎯 O Que Você Vai Construir
+Pratique manipulação de strings, controle de fluxo e interação com o usuário ao criar um jogo da forca em Python.
 
-Crie um jogo da Forca onde os jogadores adivinham letras para revelar uma palavra oculta antes de esgotar as tentativas.
+## 📝 Tasks
 
-**Habilidades praticadas:** Manipulação de strings, loops, condicionais, seleção aleatória
+### 🛠️ Escolher a Palavra Secreta
 
-## ✅ Requisitos Obrigatórios
+#### Descrição
+Crie uma lista de palavras e escolha uma delas de forma aleatória para iniciar o jogo.
 
-Seu jogo deve:
-- Selecionar palavras aleatoriamente de uma lista predefinida
-- Aceitar palpites de letras e mostrar o progresso atual (formato _ _ _)
-- Rastrear tentativas incorretas restantes
-- Encerrar quando a palavra for adivinhada ou as tentativas esgotarem
-- Exibir mensagens de vitória/derrota
+#### Requisitos
+O programa completo deve:
+
+- Definir uma lista com pelo menos 5 palavras possíveis.
+- Selecionar uma palavra aleatória para o jogo.
+- Armazenar a palavra escolhida de forma que possa ser comparada com as letras digitadas pelo jogador.
+
+### 🛠️ Gerenciar as Tentativas do Jogador
+
+#### Descrição
+Permita que o usuário insira letras e acompanhe o progresso da palavra oculta durante o jogo.
+
+#### Requisitos
+O programa completo deve:
+
+- Solicitar letras do usuário com `input()`.
+- Mostrar o estado atual da palavra em formato como `_ _ _`.
+- Verificar se a letra informada está presente na palavra secreta.
+- Atualizar o progresso quando a letra for correta.
+- Contar as tentativas incorretas restantes.
+
+### 🛠️ Encerrar o Jogo com Resultado Final
+
+#### Descrição
+Finalize a partida quando o jogador acertar a palavra ou quando as tentativas acabarem.
+
+#### Requisitos
+O programa completo deve:
+
+- Encerrar automaticamente quando a palavra for completamente revelada.
+- Exibir uma mensagem de vitória quando o jogador adivinhar a palavra.
+- Exibir uma mensagem de derrota quando as tentativas forem esgotadas.
+- Mostrar a palavra correta ao final da partida.
